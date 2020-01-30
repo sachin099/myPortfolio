@@ -1,0 +1,26 @@
+
+.bg {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/assets/sac.JPG");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: alpha(opacity=50);
+}
+
+.info {
+  font-family: 'Lato';
+}
+
+.info h1,h2,h3 {
+  
+  color:azure;
+}
+hr {
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
