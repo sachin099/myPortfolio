@@ -12,7 +12,23 @@
 .nav-item a {
   color: white;
   font-family: Lato;
-  font-size: 17 px;
+  font-size: 17px;
 }
- 
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .nav-link {
+    background-color: white;
+    opacity:0.3;
+  }
+  .nav-item a {
+    color: black;
+    font-family: Lato;
+    font-size: 17px;
+  }
+}
 
