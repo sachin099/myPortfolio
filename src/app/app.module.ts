@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { IntroComponent } from './intro/intro.component';
 import { BioComponent } from './bio/bio.component';
 import { TechStackComponent } from './tech-stack/tech-stack.component';
+import { NgwWowModule } from 'ngx-wow';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TechStackComponent } from './tech-stack/tech-stack.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgwWowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

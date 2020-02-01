@@ -4,7 +4,8 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\bio",
-    "\\src\\app\\intro"
+    "\\src\\app\\intro",
+    "\\src\\app\\tech-stack"
   ],
   "SelectedNode": "\\src\\app\\app.component.ts",
   "PreviewInSolutionExplorer": false

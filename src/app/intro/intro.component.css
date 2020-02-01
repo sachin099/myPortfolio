@@ -10,13 +10,16 @@
   background-size: cover;
   filter: alpha(opacity=50);
 }
+.below-sec {
+  margin-bottom: 32%;
+} 
 .line-blue-left {
   border: 0;
   height: 1px;
   width: 30%;
   margin-left: 0px;
   margin-bottom: 0.2px;
-  margin-top:0px;
+  margin-top: 0px;
   border-radius: 7px 7px 7px 7px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
@@ -110,6 +113,7 @@ h1 {
     width: 100%;
     margin-left: 0%;
   }
+
   h1 {
     margin-top: 30%;
     margin-left: 0;
@@ -117,18 +121,22 @@ h1 {
     margin-bottom: 0;
     font-size: 400%;
   }
-  .bg {
 
-    height:auto;
+  .bg {
+    height: auto;
   }
+
   .introd {
     margin-top: 18%;
     padding-right: 5%;
     margin-bottom: 15%;
-    padding-bottom:20%
+    padding-bottom: 20%
+  }
+
+  .below-sec {
+    margin-bottom: 0;
   }
 }
-
 @media only screen and (max-width: 580px) {
 
 
@@ -136,8 +144,10 @@ h1 {
     margin-top: 50%;
     font-size: 300%;
   }
-  
 
+  .below-sec {
+    margin-bottom: 0;
+  }
 }
 @media only screen and (max-width: 400px) {
 
@@ -149,6 +159,9 @@ h1 {
     padding-right: 5%;
     margin-bottom: 15%;
     padding-bottom: 20%
+  }
+  .below-sec {
+    margin-bottom:0;
   }
 }
 
