@@ -5,8 +5,9 @@
     "\\src\\app",
     "\\src\\app\\bio",
     "\\src\\app\\intro",
+    "\\src\\app\\nav-bar",
     "\\src\\app\\tech-stack"
   ],
-  "SelectedNode": "\\src\\app\\app.component.ts",
+  "SelectedNode": "\\src\\app\\intro\\intro.component.css",
   "PreviewInSolutionExplorer": false
 }
