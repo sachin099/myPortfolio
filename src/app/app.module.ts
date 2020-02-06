@@ -8,6 +8,7 @@ import { IntroComponent } from './intro/intro.component';
 import { BioComponent } from './bio/bio.component';
 import { TechStackComponent } from './tech-stack/tech-stack.component';
 import { NgwWowModule } from 'ngx-wow';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgwWowModule } from 'ngx-wow';
     NavBarComponent,
     IntroComponent,
     BioComponent,
-    TechStackComponent
+    TechStackComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
