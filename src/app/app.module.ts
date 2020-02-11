@@ -9,6 +9,7 @@ import { BioComponent } from './bio/bio.component';
 import { TechStackComponent } from './tech-stack/tech-stack.component';
 import { NgwWowModule } from 'ngx-wow';
 import { ExperienceComponent } from './experience/experience.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ExperienceComponent } from './experience/experience.component';
     IntroComponent,
     BioComponent,
     TechStackComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,

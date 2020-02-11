@@ -43,7 +43,7 @@
 }
 
 .nav-item.active a {
-  color: black;
+  color: white;
   font-family: Lato;
   font-size: 17px;
   transition: color 2.0s,transform 2.0s ease-out;
@@ -76,7 +76,7 @@
     font-size: 17px;
   }
   .nav-item.active a {
-    color: black;
+    color: white;
     font-family: Lato;
     font-size: 17px;
     transition: color 2.0s,transform 2.0s ease-out;

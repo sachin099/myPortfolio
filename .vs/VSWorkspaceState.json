@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\app",
     "\\src\\app\\bio",
+    "\\src\\app\\experience",
     "\\src\\app\\intro",
     "\\src\\app\\nav-bar",
     "\\src\\app\\tech-stack"
   ],
-  "SelectedNode": "\\src\\app\\intro\\intro.component.css",
   "PreviewInSolutionExplorer": false
 }
