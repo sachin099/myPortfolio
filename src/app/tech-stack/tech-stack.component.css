@@ -4,11 +4,11 @@
   height: 85px;
   width: 85px;
   line-height: 101px;
-  -webkit-transform: rotate(47deg);
-  -moz-transform: rotate(47deg);
-  -ms-transform: rotate(47deg);
-  -o-transform: rotate(47deg);
-  transform: rotate(47deg);
+  -webkit-transform: rotate(48deg);
+  -moz-transform: rotate(48deg);
+  -ms-transform: rotate(48deg);
+  -o-transform: rotate(48deg);
+  transform: rotate(48deg);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
@@ -36,8 +36,14 @@
 }
 
 .area {
-  margin-top:8%;
-  margin-bottom:8%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.test {
+  border-radius: 2%;
+  padding: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 
