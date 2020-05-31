@@ -10,6 +10,7 @@ import { TechStackComponent } from './tech-stack/tech-stack.component';
 import { NgwWowModule } from 'ngx-wow';
 import { ExperienceComponent } from './experience/experience.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SocialMediaComponent } from './social-media/social-media.component';
     BioComponent,
     TechStackComponent,
     ExperienceComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

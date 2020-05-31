@@ -1,0 +1,22 @@
+.footer {
+    background-color: darkslategrey;
+    padding-bottom: 5%;
+}
+.mostBottom{
+    background-color: black;
+    padding: 2%
+}
+.dis{
+    
+        position: relative;
+        padding-top: 4%;
+        color: white;
+      
+}
+.disContact {
+        position: relative;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        color: white;
+        padding-left: 16%
+}
