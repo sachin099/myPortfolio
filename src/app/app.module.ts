@@ -11,6 +11,7 @@ import { NgwWowModule } from 'ngx-wow';
 import { ExperienceComponent } from './experience/experience.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgwWowModule
+    NgwWowModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
