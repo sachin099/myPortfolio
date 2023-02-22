@@ -1,5 +1,5 @@
 .area {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/assets/Flow.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0)), url("../../assets/Flow.jpg");
   filter: alpha(opacity=50);
   background-repeat: no-repeat;
   background-position: center center;
@@ -9,9 +9,10 @@
 }
 
 .middle {
-  margin-top:20%;
-  padding-top:16%;
+  margin-top: 20%;
+  padding-top: 16%;
 }
+
 .social-button {
   margin: 0;
   padding: 0;
@@ -19,67 +20,67 @@
   text-align: center;
 }
 
-  .social-button li {
-    display: inline-block;
-  }
+.social-button li {
+  display: inline-block;
+}
 
-    .social-button li:nth-child(2) {
-      margin: 0 75px;
-    }
+.social-button li:nth-child(2) {
+  margin: 0 75px;
+}
 
-    .social-button li a {
-      border: 2px solid #fff;
-      border-radius: 50%;
-      color: #fff;
-      display: block;
-      height: 90px;
-      line-height: 96px;
-      width: 90px;
-      -webkit-transition: all 0.2s ease 0s;
-      -moz-transition: all 0.2s ease 0s;
-      -o-transition: all 0.2s ease 0s;
-      transition: all 0.2s ease 0s;
-    }
+.social-button li a {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  height: 90px;
+  line-height: 96px;
+  width: 90px;
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
 
-      .social-button li a:hover {
-        color: #008ECC;
-        border: 2px solid #008ECC;
-      }
+.social-button li a:hover {
+  color: #008ECC;
+  border: 2px solid #008ECC;
+}
 
 .sec-title {
   margin-bottom: 50px;
 }
 
-  .sec-title.white {
-    color: #fff;
-  }
+.sec-title.white {
+  color: #fff;
+}
 
-  .sec-title h2 {
-    font-size: 36px;
-    margin: 0 0 30px;
-    padding-bottom: 30px;
-    padding-top:160px;
-    position: relative;
-    text-transform: uppercase;
-  }
+.sec-title h2 {
+  font-size: 36px;
+  margin: 0 0 30px;
+  padding-bottom: 30px;
+  padding-top: 160px;
+  position: relative;
+  text-transform: uppercase;
+}
 
-  .sec-title.white h2 {
-    color: #fff;
-  }
+.sec-title.white h2 {
+  color: #fff;
+}
 
-  .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
-    content: "";
-    display: block;
-    left: 45%;
-    bottom: 0;
-    position: absolute;
-    width: 115px;
-  }
+.sec-title h2:after {
+  border-bottom: 1px solid #009ee3;
+  content: "";
+  display: block;
+  left: 45%;
+  bottom: 0;
+  position: absolute;
+  width: 115px;
+}
 
-  .sec-title.white h2:after {
-    border-bottom: 1px solid #fff;
-  }
+.sec-title.white h2:after {
+  border-bottom: 1px solid #fff;
+}
 
 @media only screen and (max-width: 767px) {
   .social-button li:nth-child(2) {

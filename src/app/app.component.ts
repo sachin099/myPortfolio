@@ -2,10 +2,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { NgwWowService } from 'ngx-wow';
 import { Subscription } from 'rxjs';
-import { filter } from 'rxjs/operators/filter';
-import * as XLSX from 'xlsx';
+import { filter } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

@@ -1,7 +1,7 @@
 
 .bg {
   /* The image used */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/assets/sac.JPG");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0)), url("../../assets/sac.JPG");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
